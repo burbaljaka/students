@@ -1,0 +1,48 @@
+[{
+  "model": "logic.student",
+  "pk": 1,
+  "fields":{
+    "full_name": "The first student",
+    "birth_date": "2000-10-10"
+  }
+},
+  {
+    "model": "logic.student",
+    "pk": 2,
+    "fields": {
+      "full_name": "The second student",
+      "birth_date": "1999-02-15"
+    }
+  },
+  {
+    "model": "logic.mark",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "mark": 4
+    }
+  },
+  {
+    "model": "logic.mark",
+    "pk": 2,
+    "fields": {
+      "student": 1,
+      "mark": 5
+    }
+  },
+  {
+    "model": "logic.mark",
+    "pk": 3,
+    "fields": {
+      "student": 2,
+      "mark": 3
+    }
+  },
+  {
+    "model": "logic.mark",
+    "pk": 4,
+    "fields": {
+      "student": 2,
+      "mark": 2
+    }
+  }]
